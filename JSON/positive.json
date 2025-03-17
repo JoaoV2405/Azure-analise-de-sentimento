@@ -1,0 +1,195 @@
+{
+  "data": {
+    "kind": "SentimentAnalysisResults",
+    "results": {
+      "documents": [
+        {
+          "id": "1",
+          "sentiment": "positive",
+          "confidenceScores": {
+            "positive": 0.91,
+            "neutral": 0.09,
+            "negative": 0
+          },
+          "sentences": [
+            {
+              "sentiment": "positive",
+              "confidenceScores": {
+                "positive": 0.89,
+                "neutral": 0.11,
+                "negative": 0
+              },
+              "offset": 0,
+              "length": 98,
+              "text": "\"DIO offers an incredible learning experience with well-structured courses and hands-on projects. ",
+              "targets": [
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 0,
+                  "length": 4,
+                  "text": "\"DIO",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/0/assessments/0"
+                    }
+                  ]
+                },
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 26,
+                  "length": 19,
+                  "text": "learning experience",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/0/assessments/0"
+                    }
+                  ]
+                },
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 67,
+                  "length": 7,
+                  "text": "courses",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/0/assessments/1"
+                    }
+                  ]
+                }
+              ],
+              "assessments": [
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 15,
+                  "length": 10,
+                  "text": "incredible",
+                  "isNegated": false
+                },
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 51,
+                  "length": 15,
+                  "text": "well-structured",
+                  "isNegated": false
+                }
+              ]
+            },
+            {
+              "sentiment": "positive",
+              "confidenceScores": {
+                "positive": 0.96,
+                "neutral": 0.04,
+                "negative": 0
+              },
+              "offset": 98,
+              "length": 80,
+              "text": "The instructors explain complex topics clearly, making it easy to follow along. ",
+              "targets": [
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 102,
+                  "length": 11,
+                  "text": "instructors",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/1/assessments/0"
+                    }
+                  ]
+                }
+              ],
+              "assessments": [
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 156,
+                  "length": 4,
+                  "text": "easy",
+                  "isNegated": false
+                }
+              ]
+            },
+            {
+              "sentiment": "positive",
+              "confidenceScores": {
+                "positive": 0.88,
+                "neutral": 0.12,
+                "negative": 0
+              },
+              "offset": 178,
+              "length": 73,
+              "text": "I feel more confident in my programming skills thanks to this platform.\" ",
+              "targets": [
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 240,
+                  "length": 8,
+                  "text": "platform",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/2/assessments/0"
+                    }
+                  ]
+                }
+              ],
+              "assessments": [
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 190,
+                  "length": 9,
+                  "text": "confident",
+                  "isNegated": false
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "errors": [],
+      "modelVersion": "2025-01-01"
+    }
+  },
+  "headers": {},
+  "status": 200,
+  "statusText": ""
+}
