@@ -1,0 +1,264 @@
+{
+  "data": {
+    "kind": "SentimentAnalysisResults",
+    "results": {
+      "documents": [
+        {
+          "id": "1",
+          "sentiment": "negative",
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 1
+          },
+          "sentences": [
+            {
+              "sentiment": "negative",
+              "confidenceScores": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 1
+              },
+              "offset": 0,
+              "length": 94,
+              "text": "\"I was really excited about trying this new restaurant, but the experience was disappointing. ",
+              "targets": [
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0,
+                    "negative": 1
+                  },
+                  "offset": 44,
+                  "length": 10,
+                  "text": "restaurant",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/0/assessments/0"
+                    }
+                  ]
+                },
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0,
+                    "negative": 1
+                  },
+                  "offset": 64,
+                  "length": 10,
+                  "text": "experience",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/0/assessments/0"
+                    }
+                  ]
+                }
+              ],
+              "assessments": [
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0,
+                    "negative": 1
+                  },
+                  "offset": 79,
+                  "length": 13,
+                  "text": "disappointing",
+                  "isNegated": false
+                }
+              ]
+            },
+            {
+              "sentiment": "negative",
+              "confidenceScores": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 1
+              },
+              "offset": 94,
+              "length": 90,
+              "text": "The food took too long to arrive, and when it finally did, it was cold and lacked flavor. ",
+              "targets": [
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0.01,
+                    "negative": 0.99
+                  },
+                  "offset": 98,
+                  "length": 4,
+                  "text": "food",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/1/assessments/0"
+                    },
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/1/assessments/1"
+                    }
+                  ]
+                },
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0,
+                    "negative": 1
+                  },
+                  "offset": 176,
+                  "length": 6,
+                  "text": "flavor",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/1/assessments/2"
+                    }
+                  ]
+                }
+              ],
+              "assessments": [
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0.01,
+                    "negative": 0.99
+                  },
+                  "offset": 160,
+                  "length": 4,
+                  "text": "cold",
+                  "isNegated": false
+                },
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0.01,
+                    "negative": 0.99
+                  },
+                  "offset": 169,
+                  "length": 13,
+                  "text": "lacked flavor",
+                  "isNegated": false
+                },
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0,
+                    "negative": 1
+                  },
+                  "offset": 169,
+                  "length": 6,
+                  "text": "lacked",
+                  "isNegated": false
+                }
+              ]
+            },
+            {
+              "sentiment": "negative",
+              "confidenceScores": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 1
+              },
+              "offset": 184,
+              "length": 112,
+              "text": "At least the ambiance was pleasant, but the slow service and uninterested staff made it hard to enjoy the meal.\"",
+              "targets": [
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 197,
+                  "length": 8,
+                  "text": "ambiance",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/2/assessments/0"
+                    }
+                  ]
+                },
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0.01,
+                    "negative": 0.99
+                  },
+                  "offset": 233,
+                  "length": 7,
+                  "text": "service",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/2/assessments/1"
+                    }
+                  ]
+                },
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0,
+                    "negative": 1
+                  },
+                  "offset": 258,
+                  "length": 5,
+                  "text": "staff",
+                  "relations": [
+                    {
+                      "relationType": "assessment",
+                      "ref": "#/documents/0/sentences/2/assessments/2"
+                    }
+                  ]
+                }
+              ],
+              "assessments": [
+                {
+                  "sentiment": "positive",
+                  "confidenceScores": {
+                    "positive": 1,
+                    "negative": 0
+                  },
+                  "offset": 210,
+                  "length": 8,
+                  "text": "pleasant",
+                  "isNegated": false
+                },
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0.01,
+                    "negative": 0.99
+                  },
+                  "offset": 228,
+                  "length": 4,
+                  "text": "slow",
+                  "isNegated": false
+                },
+                {
+                  "sentiment": "negative",
+                  "confidenceScores": {
+                    "positive": 0,
+                    "negative": 1
+                  },
+                  "offset": 245,
+                  "length": 12,
+                  "text": "uninterested",
+                  "isNegated": false
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "errors": [],
+      "modelVersion": "2025-01-01"
+    }
+  },
+  "headers": {},
+  "status": 200,
+  "statusText": ""
+}
